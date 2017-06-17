@@ -1,6 +1,7 @@
 {
   "name": "ember-addon-presenting-page",
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "highlightjs": "^9.12.0"
   }
 }

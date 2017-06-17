@@ -19,26 +19,26 @@
 
 <h2 id="cdnjs">CDNJS</h2>
 <p>
-  The folks at CDNJS host a copy of the library. The CDN is updated after the release is made public, which means there is a delay between the publishing of a release and its availability on the CDN, so keep that in mind. Just use these links:
+	The folks at CDNJS host a copy of the library. The CDN is updated after the release is made public, which means there is a delay between the publishing of a release and its availability on the CDN, so keep that in mind. Just use these links:
 </p>
-{{#themed-syntax  theme="dark"}}
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
-
-<!-- (Optional) Latest compiled and minified JavaScript translation files -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/i18n/defaults-*.min.js"></script>
-{{/themed-syntax}}
+{{#highlight-code }}
+	SOME-CODE-OF-ADDON
+{{/highlight-code}}
 
 
 
-<h2 id="install-with-bower">Install with Bower</h2>
+<h2>Install ADD-ON</h2>
 <p>
-  You can also install bootstrap-select using <a href="http://bower.io">Bower</a>:
+	You can also install ADD-ON using :
 </p>
-$ ember installl ADDON-NAME
+<ul>
+	<li>
+		Install with <a href="http://bower.io/">Bower</a>:  {{highlight-code  code='bower install masonry --save'}}
+	</li>
+	<li>
+		<a href="https://www.npmjs.com/package/masonry-layout">Install with npm</a>:   {{highlight-code  code='npm install masonry --save'}}
+	</li>
+</ul>
 
 
 
@@ -50,46 +50,38 @@ $ ember installl ADDON-NAME
 
 <h1 id="usage">Usage</h1>
 <hr>
-
-
-
 <p>
-  Create your <code>&lt;select&gt;</code> with the <code>.selectpicker</code> class. The data-api will automatically theme these elements.
+	Create your <code>&lt;select&gt;</code> with the <code>.selectpicker</code> class. The data-api will automatically theme these elements.
 </p>
 <pre>
-<select class="selectpicker">
-  <option>Mustard</option>
-  <option>Ketchup</option>
-  <option>Relish</option>
-</select>
 </pre>
 
 
 
+	<h1 id="used-by">Used by</h1>
+	<hr>
+	<div class="row">
+		<div class="col-sm-3">
+			<a href="#"><img class="img-rounded img-responsive" src="http://placehold.it/300x150" /></a>
+		</div>
+		<div class="col-sm-3">
+			<a href="#"><img class="img-rounded img-responsive" src="http://placehold.it/300x150" /></a>
+		</div>
+		<div class="col-sm-3">
+			<a href="#"><img class="img-rounded img-responsive" src="http://placehold.it/300x150" /></a>
+		</div>
+		<div class="col-sm-3">
+			<a href="#"><img class="img-rounded img-responsive" src="http://placehold.it/300x150" /></a>
+		</div>
+	</div>
+	<div class="clearfix"><br ></div>
+	<div class="row">
+		<div class="col-sm-12">
+			<p class="well well-sm text-center">
+				Does your organization use ADD-ON? Open an issue, and include a link and logo, and you'll be added to the list.
+			</p>
+		</div>
+	</div>
 
-<h1 id="used-by">Used by</h1>
-<hr>
-<div class="row logo-block">
-    <div class="logo-container">
-        <a href="https://snapappointments.com" target="_blank"><img src="img/logos/snapappointments.png" alt="SnapAppointments"></a>
-    </div>
-    <div class="logo-container">
-        <a href="https://www.thermofisher.com" target="_blank"><img src="img/logos/thermofisher.png" alt="Thermo Fisher Scientific Inc."></a>
-    </div>
-    <div class="logo-container">
-        <a href="https://www.membermeister.com" target="_blank"><img src="img/logos/membermeister.png" alt="membermeister"></a>
-    </div>
-    <div class="logo-container">
-        <a href="https://solveforall.com" target="_blank"><img src="img/logos/solveforall.png" alt="Solve for All"></a>
-    </div>
-    <div class="logo-container">
-        <a href="http://www.123itworks.co.uk" target="_blank"><img src="img/logos/estimateit.png" alt="EstiMATEit"></a>
-    </div>
-    <div class="logo-container">
-        <a href="https://convertizer.com" target="_blank"><img src="img/logos/convertizer.png" alt="Convertizer"></a>
-    </div>
-</div>
-
-<div class="text-muted">Does your organization use bootstrap-select? Open an issue, and include a link and logo, and you'll be added to the list.</div>
 </div>
 {{outlet}}
